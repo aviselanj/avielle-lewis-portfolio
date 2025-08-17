@@ -36,9 +36,7 @@ export default function App() {
       >
         <h3 className="text-3xl font-semibold text-yellow-300 mb-4">About Me</h3>
         <p>
-          I’m a passionate web developer who loves turning creative visions into interactive
-          experiences. My portfolio blends design and functionality to showcase
-          what’s possible when imagination meets code.
+          I’m a passionate web developer and New Orleans artist, turning creative visions into interactive experiences. My portfolio blends design and functionality to show what’s possible when imagination meets code. I focus on building intuitive user experiences and leveraging technology to make systems smarter, safer, and more efficient.
         </p>
       </section>
 

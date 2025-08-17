@@ -23,16 +23,16 @@ export default function ParticleBackground() {
                     background: { color: { value: "#0d0d0d" } },
                     fpsLimit: 60,
                     particles: {
-                        number: { value: 50, density: { enable: true, area: 1200 } },
+                        number: { value: 60, density: { enable: true, area: 1200 } },
                         color: {
                             value: ["#a855f7", "#ff6699", "#66ccff", "#facc15"],
-                            animation: { enable: true, speed: 20, sync: false },
+                            animation: { enable: true, speed: 30, sync: false },
                         },
-                        opacity: { value: 0.2, random: true, animation: { enable: true, speed: 0.5 } },
-                        size: { value: { min: 15, max: 50 }, random: true },
+                        opacity: { value: 0.25, random: true, animation: { enable: true, speed: 0.6 } },
+                        size: { value: { min: 10, max: 45 }, random: true },
                         move: {
                             enable: true,
-                            speed: 0.3,
+                            speed: 0.7,
                             random: true,
                             direction: "none",
                             straight: false,
@@ -44,28 +44,25 @@ export default function ParticleBackground() {
                 }}
             />
 
-            {/* Star Layer */}
+            {/* Twinkling Star Layer */}
             <Particles
                 id="stars"
                 className="absolute inset-0 -z-10"
                 options={{
                     fpsLimit: 60,
                     particles: {
-                        number: { value: 400, density: { enable: true, area: 1200 } },
+                        number: { value: 500, density: { enable: true, area: 1200 } },
                         color: { value: "#ffffff" },
                         shape: { type: "circle" },
                         opacity: {
                             value: 0.8,
                             random: { enable: true, minimumValue: 0.1 },
-                            animation: { enable: true, speed: 1.5, minimumValue: 0.1, sync: false },
+                            animation: { enable: true, speed: 2, minimumValue: 0.1, sync: false, random: true },
                         },
-                        size: {
-                            value: { min: 0.2, max: 2 },
-                            random: true,
-                        },
+                        size: { value: { min: 0.2, max: 2 }, random: true },
                         move: {
                             enable: true,
-                            speed: 0.5,
+                            speed: 0.6,
                             random: true,
                             straight: false,
                             outModes: { default: "out" },
@@ -74,6 +71,36 @@ export default function ParticleBackground() {
                     detectRetina: true,
                 }}
             />
+
+            {/* Comet/Streak Layer */}
+            <Particles
+                id="comets"
+                className="absolute inset-0 -z-5"
+                options={{
+                    fpsLimit: 60,
+                    particles: {
+                        number: { value: 20, density: { enable: false } },
+                        color: { value: "#ffffff" },
+                        shape: { type: "circle" },
+                        opacity: {
+                            value: 0.9,
+                            animation: { enable: true, speed: 5, minimumValue: 0.1, sync: false }
+                        },
+                        size: { value: { min: 0.5, max: 1.5 } },
+                        move: {
+                            enable: true,
+                            speed: 8,
+                            direction: "top-right",
+                            straight: true,
+                            random: false,
+                            outModes: { default: "out" },
+                        }
+                    },
+                    interactivity: { detectsOn: "canvas" },
+                    detectRetina: true,
+                }}
+            />
+
         </>
     );
 }
