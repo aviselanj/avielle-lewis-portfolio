@@ -8,7 +8,7 @@ const projects = [
     link: "#",
   },
   {
-    name: "Task Manager App",
+    name: "New Orleans Event Manager App",
     description: "A productivity app built with React and Tailwind CSS.",
     link: "#",
   },
