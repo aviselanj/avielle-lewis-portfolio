@@ -5,7 +5,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description: "A responsive, modern portfolio showcasing my work.",
-    link: "#",
+    link: "https://aviselanj.github.io/avielle-lewis-portfolio/nmp",
   },
   {
     name: "New Orleans Event Manager App",
