@@ -15,7 +15,7 @@ const projects = [
   {
     name: "E-commerce Store",
     description: "An online store demo with shopping cart functionality.",
-    link: "#",
+    link: "https://aviselanj.github.io/colorful-events-sumeshi/",
   },
 ];
 
