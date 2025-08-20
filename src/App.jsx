@@ -10,7 +10,7 @@ const projects = [
   {
     name: "New Orleans Event Manager App",
     description: "A productivity app built with React and Tailwind CSS.",
-    link: "#",
+    link: "https://aviselanj.github.io/task-manager/",
   },
   {
     name: "E-commerce Store",
