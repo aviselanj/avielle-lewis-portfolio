@@ -13,9 +13,9 @@ const projects = [
     link: "https://aviselanj.github.io/task-manager/",
   },
   {
-    name: "E-commerce Store",
-    description: "An online store demo with shopping cart functionality.",
-    link: "https://aviselanj.github.io/colorful-events-sumeshi/",
+    name: "Collaborative project",
+    description: "A web application created to help moms log daily breastmilk production and receive advice and tips on how to increase or maintain healthy daily production.",
+    link: "https://babies-liquid-gold.github.io/babies-liquid-gold/about.html/",
   },
 ];
 
