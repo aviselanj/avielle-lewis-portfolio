@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Collaborative project",
     description: "A web application created to help moms log daily breastmilk production and receive advice and tips on how to increase or maintain healthy daily production.",
-    link: "https://babies-liquid-gold.github.io/babies-liquid-gold/about.html/",
+    link: "https://babies-liquid-gold.github.io/babies-liquid-gold/",
   },
 ];
 
